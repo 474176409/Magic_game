@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/mofang" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/qiyimofang" />
+
+    <ImageButton
+        android:id="@+id/chuangguan_imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="83dp"
+        android:background="@drawable/chuanggaunmoshi" />
+
+    <ImageButton
+        android:id="@+id/bangzhu_imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chuangguan_imageButton"
+        android:layout_below="@+id/chuangguan_imageButton"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bangzhu" />
+
+    <ImageButton
+        android:id="@+id/quwei_imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bangzhu_imageButton"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/chuangguan_imageButton"
+        android:background="@drawable/quweimoshi" />
+
+    <ImageButton
+        android:id="@+id/tuichu_imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quwei_imageButton"
+        android:layout_alignTop="@+id/bangzhu_imageButton"
+        android:background="@drawable/tuichu" />
+
+</RelativeLayout>

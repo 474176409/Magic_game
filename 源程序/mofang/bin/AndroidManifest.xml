@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.upc.mofang"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.upc.mofang.Welcome"
+            android:label="@string/app_name" 
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.upc.mofang.Start"></activity>
+        <activity android:name="com.upc.mofang.GameView"></activity>
+        <activity android:name="com.upc.mofang.game.GameOne"></activity>
+        <activity android:name="com.upc.mofang.game.GameTwo"></activity>
+        <activity android:name="com.upc.mofang.game.GameThree"></activity>
+        <activity android:name="com.upc.mofang.game.GameFour"></activity>
+        <activity android:name="com.upc.mofang.game.GameFive"></activity>
+        <activity android:name="com.upc.mofang.game.GameSix"></activity>
+        <activity android:name="com.upc.mofang.game.GameSeven"></activity>
+        <activity android:name="com.upc.mofang.game.GameEight"></activity>
+        <activity android:name="com.upc.mofang.game.GameNine"></activity>
+        <activity android:name="com.upc.mofang.game.GameTen"></activity>
+        <activity android:name="com.upc.mofang.GameView2"></activity>
+        <activity android:name="com.upc.mofang.Help"></activity>
+    </application>
+
+</manifest>
